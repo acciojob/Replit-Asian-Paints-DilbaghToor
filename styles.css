@@ -1,1 +1,10 @@
 /*  your css code here. If applicable */
+.container{
+    display: grid;
+    grid-template-columns:150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    grid-gap: 10px 10px;
+}
+.grid-item {
+    background-color: red;
+}
